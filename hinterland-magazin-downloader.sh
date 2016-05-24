@@ -16,7 +16,7 @@ if [ ! -d "issues" ]; then
 fi
 
 i=17
-issues=30
+issues=31
 
 while [ $i -le $issues ]
 do
