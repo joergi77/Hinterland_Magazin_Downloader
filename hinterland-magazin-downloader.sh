@@ -15,8 +15,13 @@ USAGE="Usage: sh hinterland-magazin-downloader.sh"
 if [ ! -d "issues" ]; then
  mkdir issues
 fi
-
-
+wget http://www.hinterland-magazin.de/wp-content/uploads/2016/12/Hinterland22_klein.pdf -P issues/
+wget http://www.hinterland-magazin.de/wp-content/uploads/2016/11/Hinterland23_Klein.pdf -P issues/
+wget http://www.hinterland-magazin.de/wp-content/uploads/2016/11/Hinterland24_Klein.pdf -P issues/
+# 25 - link not working
+wget http://www.hinterland-magazin.de/wp-content/uploads/2016/04/26-19.pdf -P issues/
+wget http://www.hinterland-magazin.de/wp-content/uploads/2016/11/hinterland-magazin-27.pdf -P issues/
+wget http://www.hinterland-magazin.de/wp-content/uploads/2016/11/hinterland-magazin-28.pdf -P issues/
 wget http://www.hinterland-magazin.de/wp-content/uploads/2016/07/hinterland-magazin-29.pdf -P issues/
 wget http://www.hinterland-magazin.de/wp-content/uploads/2016/07/hinterland-magazin-30.pdf -P issues/
 wget http://www.hinterland-magazin.de/wp-content/uploads/2016/06/hinterland-magazin-31.pdf -P issues/
