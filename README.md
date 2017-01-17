@@ -1,7 +1,6 @@
 # Hinterland Magazin Downloader
 
-Dieser Downloader lädt alle Hinterland Magazine (ab #29) auf Linux und MacOs runter
-In einer früheren Version des Downloaders gab es die Version 17-30, leider sind aber die alten Ausgaben alle offline!
+Dieser Downloader lädt alle Hinterland Magazine (ab #14) auf Linux und MacOs runter (#18 & #25 fehlen, die Links funktionierten nicht)
 
 Zuerst das Repository klonen  
 `git clone https://github.com/joergi77/Hinterland_Magazin_Downloader.git`   
