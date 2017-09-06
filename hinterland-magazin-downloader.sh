@@ -1,6 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 # ------------------------------------------------------------------
-# [Author] joergi77 - https://github.com/joergi77
+# [Author] joergi - https://github.com/joergi/Hinterland_Magazin_Downloader
+
 #          downloader for all Hinterland Magazin issues
 #          they are downloadable for free under http://www.hinterland-magazin.de/
 #          or you can buy the paper issues under: http://www.hinterland-magazin.de/bestellen.php

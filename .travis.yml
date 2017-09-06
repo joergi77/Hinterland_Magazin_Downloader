@@ -1,0 +1,4 @@
+language: bash
+
+script:
+- bash hinterland-magazin-downloader.sh
