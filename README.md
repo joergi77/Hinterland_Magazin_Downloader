@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/joergi/Hinterland_Magazin_Downloader.svg?branch=master)](https://travis-ci.org/joergi/Hinterland_Magazin_Downloader)
+
 # Hinterland Magazin Downloader
 
 Dieser Downloader lädt alle Hinterland Magazine (ab #14) auf Linux und MacOs runter 
