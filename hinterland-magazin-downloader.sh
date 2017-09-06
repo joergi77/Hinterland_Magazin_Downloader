@@ -28,7 +28,7 @@ wget http://www.hinterland-magazin.de/wp-content/uploads/2016/12/Hinterland22_kl
 wget http://www.hinterland-magazin.de/wp-content/uploads/2016/11/Hinterland23_Klein.pdf -P issues/
 wget http://www.hinterland-magazin.de/wp-content/uploads/2016/11/Hinterland24_Klein.pdf -P issues/
 # 25 - link not working
-# 25 - link not working
+# 26 - link not working
 wget http://www.hinterland-magazin.de/wp-content/uploads/2016/11/hinterland-magazin-27.pdf -P issues/
 wget http://www.hinterland-magazin.de/wp-content/uploads/2016/11/hinterland-magazin-28.pdf -P issues/
 wget http://www.hinterland-magazin.de/wp-content/uploads/2016/07/hinterland-magazin-29.pdf -P issues/
