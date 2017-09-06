@@ -7,7 +7,7 @@ Zuerst das Repository klonen
 `git clone https://github.com/joergi77/Hinterland_Magazin_Downloader.git`   
 
 Zum Downloaden der PDF Magazine:  
-`sh hinterland-magazin-downloader.sh`
+`bash hinterland-magazin-downloader.sh`
 
 Alle Ausgaben gibt es kostenlos unter: [http://www.hinterland-magazin.de](http://www.hinterland-magazin.de).  
 Das Hinterland Magazin ist ein Vierteljahresmagazin vom [Bayerischen Flüchtlingsrat](http://www.fluechtlingsrat-bayern.de).  
