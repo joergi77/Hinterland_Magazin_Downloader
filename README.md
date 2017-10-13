@@ -1,4 +1,4 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/15cdd52dbc2b4525a71fc836dbcc0426)](https://www.codacy.com/app/joergi/Hinterland_Magazin_Downloader?utm_source=github.com&utm_medium=referral&utm_content=joergi/Hinterland_Magazin_Downloader&utm_campaign=badger)[![Build Status](https://travis-ci.org/joergi/Hinterland_Magazin_Downloader.svg?branch=master)](https://travis-ci.org/joergi/Hinterland_Magazin_Downloader)
+[![Build Status](https://travis-ci.org/joergi/Hinterland_Magazin_Downloader.svg?branch=master)](https://travis-ci.org/joergi/Hinterland_Magazin_Downloader)[![Codacy Badge](https://api.codacy.com/project/badge/Grade/15cdd52dbc2b4525a71fc836dbcc0426)](https://www.codacy.com/app/joergi/Hinterland_Magazin_Downloader?utm_source=github.com&utm_medium=referral&utm_content=joergi/Hinterland_Magazin_Downloader&utm_campaign=badger)
 
 # Hinterland Magazin Downloader
 
