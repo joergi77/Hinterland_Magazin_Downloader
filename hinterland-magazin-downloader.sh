@@ -7,9 +7,9 @@
 #          or you can buy the paper issues under: http://www.hinterland-magazin.de/bestellen.php
 #          this script is under GNU GENERAL PUBLIC LICENSE v3.0
 # ------------------------------------------------------------------
-
-VERSION=0.1.0
-USAGE="Usage: sh hinterland-magazin-downloader.sh"
+#
+# VERSION=0.1.0
+# USAGE="Usage: sh hinterland-magazin-downloader.sh"
 
 if [ ! -d "issues" ]; then
  mkdir issues
