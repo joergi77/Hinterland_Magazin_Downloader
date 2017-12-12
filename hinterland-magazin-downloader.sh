@@ -38,4 +38,5 @@ wget http://www.hinterland-magazin.de/wp-content/uploads/2016/09/hinterland-maga
 wget http://www.hinterland-magazin.de/wp-content/uploads/2017/01/hinterland-magazin-ausgabe33.pdf -P issues/
 wget http://www.hinterland-magazin.de/wp-content/uploads/2017/05/Hinterland34-Klein.pdf -P issues/
 wget http://www.hinterland-magazin.de/wp-content/uploads/2017/09/Hinterland35-klein.pdf -P issues/
+wget http://www.hinterland-magazin.de/wp-content/uploads/2017/12/hinterland36-klein.pdf -P issues/
 

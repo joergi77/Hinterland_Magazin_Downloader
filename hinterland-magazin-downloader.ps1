@@ -44,7 +44,8 @@ $hinterland_issues = @(
 	"http://www.hinterland-magazin.de/wp-content/uploads/2016/09/hinterland-magazin-32.pdf",
 	"http://www.hinterland-magazin.de/wp-content/uploads/2017/01/hinterland-magazin-ausgabe33.pdf",
 	"http://www.hinterland-magazin.de/wp-content/uploads/2017/05/Hinterland34-Klein.pdf",
-	"http://www.hinterland-magazin.de/wp-content/uploads/2017/09/Hinterland35-klein.pdf"
+	"http://www.hinterland-magazin.de/wp-content/uploads/2017/09/Hinterland35-klein.pdf",
+        "http://www.hinterland-magazin.de/wp-content/uploads/2017/12/hinterland36-klein.pdf"
 	
 )
 
@@ -71,7 +72,7 @@ try
 	    $issue_name = $issue_name.Replace("08/","")
 	    $issue_name = $issue_name.Replace("09/","")
 	    $issue_name = $issue_name.Replace("10/","")
-		$issue_name = $issue_name.Replace("11/","")
+            $issue_name = $issue_name.Replace("11/","")
 	    $issue_name = $issue_name.Replace("12/","")
 
 	    $web.DownloadFile($issue, "$PSScriptRoot\hinterland_issues\\$issue_name")
