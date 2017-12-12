@@ -6,7 +6,7 @@ Dieser Downloader lädt alle Hinterland Magazine (ab #14) auf Linux und MacOs ru
 (#13-#16, #18, #25 & #26 fehlen, die Links funktionierten nicht)
 
 Zuerst das Repository klonen  
-`git clone https://github.com/joergi77/Hinterland_Magazin_Downloader.git`   
+`git clone https://github.com/joergi/Hinterland_Magazin_Downloader.git`   
 
 Zum Downloaden der PDF Magazine auf Windows:  
 `./hinterland-magazin-downloader.ps1`
