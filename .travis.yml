@@ -9,5 +9,6 @@ matrix:
       - docker
     script:
       - docker pull microsoft/powershell
-      - docker run -v $(pwd):/data microsoft/powershell /bin/sh -c "cd /data; chmod +x *.ps1; powershell ./hinterland-magazin-downloader.ps1"
+      - docker run -v $(pwd):/data microsoft/powershell /bin/sh -c "cd /data; chmod +x *.ps1; pwsh ./hinterland-magazin-downloader.ps1"
+
 
