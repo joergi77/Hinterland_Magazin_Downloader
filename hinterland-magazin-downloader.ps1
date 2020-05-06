@@ -71,6 +71,11 @@ try
 	    $issue_name = $issue_name.Replace("http://www.hinterland-magazin.de/wp-content/uploads/","")
 	    $issue_name = $issue_name.Replace("2016/","")
 	    $issue_name = $issue_name.Replace("2017/","")
+      $issue_name = $issue_name.Replace("2018/","")
+      $issue_name = $issue_name.Replace("2019/","")
+      $issue_name = $issue_name.Replace("2020/","")
+      $issue_name = $issue_name.Replace("2021/","")
+
 	    $issue_name = $issue_name.Replace("01/","")
 	    $issue_name = $issue_name.Replace("02/","")
 	    $issue_name = $issue_name.Replace("03/","")
@@ -81,7 +86,7 @@ try
 	    $issue_name = $issue_name.Replace("08/","")
 	    $issue_name = $issue_name.Replace("09/","")
 	    $issue_name = $issue_name.Replace("10/","")
-		$issue_name = $issue_name.Replace("11/","")
+		  $issue_name = $issue_name.Replace("11/","")
 	    $issue_name = $issue_name.Replace("12/","")
 
 	    $web.DownloadFile($issue, "$PSScriptRoot\hinterland_issues\\$issue_name")
