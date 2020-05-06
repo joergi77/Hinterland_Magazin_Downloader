@@ -4,10 +4,9 @@ matrix:
   - language: bash
     script:
     - bash hinterland-magazin-downloader.sh
-  - language: sh
+  - language: bash
     services:
       - docker
     script:
       - docker pull microsoft/powershell
       - docker run -v $(pwd):/data microsoft/powershell /bin/sh -c "cd /data; chmod +x *.ps1; pwsh ./hinterland-magazin-downloader.ps1"
-
