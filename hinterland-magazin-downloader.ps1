@@ -25,7 +25,7 @@ if( -Not (Test-Path -Path "issues" ) )
 }
 
 $hinterland_issues = @(
-	
+
 	"http://www.hinterland-magazin.de/wp-content/uploads/2016/12/Hinterland17KLEIN.pdf",
 	# 18 - link not working
 	"http://www.hinterland-magazin.de/wp-content/uploads/2016/12/Hinterland19_Klein.pdf",
@@ -44,8 +44,18 @@ $hinterland_issues = @(
 	"http://www.hinterland-magazin.de/wp-content/uploads/2016/09/hinterland-magazin-32.pdf",
 	"http://www.hinterland-magazin.de/wp-content/uploads/2017/01/hinterland-magazin-ausgabe33.pdf",
 	"http://www.hinterland-magazin.de/wp-content/uploads/2017/05/Hinterland34-Klein.pdf",
-	"http://www.hinterland-magazin.de/wp-content/uploads/2017/09/Hinterland35-klein.pdf"
-	
+	"http://www.hinterland-magazin.de/wp-content/uploads/2017/09/Hinterland35-klein.pdf",
+  "http://www.hinterland-magazin.de/wp-content/uploads/2017/12/hinterland36-klein.pdf",
+  "http://www.hinterland-magazin.de/wp-content/uploads/2018/04/Hinterland37-Klein.pdf",
+  "http://www.hinterland-magazin.de/wp-content/uploads/2018/06/Hinterland38-Klein.pdf",
+  "http://www.hinterland-magazin.de/wp-content/uploads/2018/10/Hinterland39Klein.pdf",
+  "http://www.hinterland-magazin.de/wp-content/uploads/2019/01/Hinterland40-Klein.pdf",
+  "http://www.hinterland-magazin.de/wp-content/uploads/2019/04/Hinterland41-Klein.pdf",
+  "http://www.hinterland-magazin.de/wp-content/uploads/2019/07/Hinterland42-Klein.pdf",
+  "http://www.hinterland-magazin.de/wp-content/uploads/2019/10/Hinterland43-Klein.pdf",
+  "http://www.hinterland-magazin.de/wp-content/uploads/2020/03/Hinterland-Magazin-44_klein2.pdf",
+  "http://www.hinterland-magazin.de/wp-content/uploads/2020/05/Hinterland45-klein.pdf"
+
 )
 
 $web = New-Object system.net.webclient
@@ -81,10 +91,3 @@ try
             exit 1
 	}
 }
-
-
-
-
-
-
-
